@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Libras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Aprendendo Libras</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+      
+    </header>
+
+    
+       <aside>
+          
+           
+  <button class="btn" onclick="playVideo('aula1.mp4')">Cumplimentos</button>
+  <button class="btn" onclick="playVideo('aula2.mp4')">Verbos</button>
+  <button class="btn" onclick="playVideo('video3.mp4')">Vídeo 3</button>
+              
+       
+        </aside>
+  <main>
+    
+  
+  
+  
+
+  
+  
+ 
+ <article class="video-container">
+  <video id="meuVideo" width="1000" height="660" controls>
+    <source id="source" src="" type="video/mp4">
+    Seu navegador não suporta a reprodução de vídeos.
+  </video>
+ </article>
+  <script>
+    function playVideo(videoSrc) {
+      var video = document.getElementById('meuVideo');
+      var source = document.getElementById('source');
+      source.src = videoSrc;
+      video.load();
+      video.play();
+    }
+  </script>
+  
+  
+  </main>
+  
+  
+
+    <footer>
+        <p>&copy; 2023 Aprendendo Libras. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
