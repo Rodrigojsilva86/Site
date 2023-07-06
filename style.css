@@ -61,7 +61,7 @@ main {
   height: 100%;
 }
 aside{
-  background: #836FFF;
+  background: #676bbF;
   color: #FDFDFD;
   width:30%;
   height: 60.00%;
@@ -82,7 +82,7 @@ article{
 }
 main{
   
-  background:  #ffffff;
+  background:  #ffff01;
   color: #FDFDFD;
   left: 34%;
   position: absolute;
