@@ -21,11 +21,15 @@
     
        <aside>
           
-           
+  <button onclick="exibirAlerta()">teste java </button>
   <button class="btn" onclick="playVideo('aula1.mp4')">Cumplimentos</button>
   <button class="btn" onclick="playVideo('aula2.mp4')">Verbos</button>
-  <button class="btn" onclick="playVideo('video3.mp4')">Vídeo 3</button>
-              
+  <button class="btn" onclick="playVideo('https://github.com/Rodrigojsilva86/Site/issues/1#issuecomment-1624032196')">Vídeo 3</button>
+              <script>
+    function exibirAlerta() {
+      alert("Esta é uma mensagem de alerta!");
+    }
+  </script>
        
         </aside>
   <main>
@@ -50,6 +54,7 @@
       source.src = videoSrc;
       video.load();
       video.play();
+      
     }
   </script>
   
