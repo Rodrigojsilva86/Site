@@ -1,6 +1,6 @@
 /* Estilos para dispositivos maiores */
 header {
-    background-color:#F4A460;
+    background-color:#444444;
     padding: 5px;
     color: #fff;
 }
@@ -61,7 +61,7 @@ main {
   height: 100%;
 }
 aside{
-  background: #F4A460;
+  background: #007700;
   color: #FDFDFD;
   width:30%;
   height: 60.00%;
