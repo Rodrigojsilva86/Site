@@ -20,19 +20,13 @@
     
        <aside>
           
-  <button onclick="exibirAlerta()">javacript </button>
-  <button class="btn" onclick="playVideo('./aula1.mp4')">Cumplimentos</button>
-  <button class="btn" onclick="playVideo('./aula2.mp4')">Verbos</button>
-  <button class="btn" onclick="playVideo('https://drive.google.com/file/d/1--vCMFYCwv4sIWy6VQwpyk65pvD6iNEG/preview')">Vídeo 3</button>
-  <button class="btn" onclick="playVideo('https://drive.google.com/file/d/1--vCMFYCwv4sIWy6VQwpyk65pvD6iNEG/preview')">Assistir ao vídeo</button>
+    <button onclick="mostrarVideo('video1')">Vídeo 1</button>
+  <button onclick="mostrarVideo('video2')">Vídeo 2</button>
+  <button onclick="mostrarVideo('video3')">Vídeo 3</button>
 
-  <script>
-    function exibirAlerta() {
-      alert("Esta é uma mensagem de alerta!");
-    }
-  </script>
+ 
        
-        </aside>
+       </aside>
   <main>
     
   
@@ -43,26 +37,35 @@
   
  
  <article class="video-container">
-  <video id="meuVideo" width="100" height="660" controls>
-    <source id="source" src="" type="video/mp4">
-    Seu navegador não suporta a reprodução de vídeos.
-  </video>
+   
+   
+  <div id="videoContainer">
+    <iframe id="videoFrame" width="300"  src="" frameborder="1" allowfullscreen></iframe>
+  </div>
+  
  </article>
     
+  
+  
   <script>
-    function playVideo(videoSrc) {
-      var video = document.getElementById('meuVideo');
-      var source = document.getElementById('source');
-      source.src = videoSrc;
-      video.load();
-      video.play();
-      
+    function mostrarVideo(video) {
+      var videoFrame = document.getElementById('videoFrame');
+      var videoUrl = '';
+
+      if (video === 'video1') {
+        videoUrl = 'https://drive.google.com/file/d/1--vCMFYCwv4sIWy6VQwpyk65pvD6iNEG/preview';
+      } else if (video === 'video2') {
+        videoUrl = 'https://www.youtube.com/embed/tp-IMViuTzo';
+      } else if (video === 'video3') {
+        videoUrl = 'https://www.youtube.com/embed/video3';
+      }
+
+      videoFrame.src = videoUrl;
     }
   </script>
   
-  
   </main>
-  
+
   
 
     <footer>
