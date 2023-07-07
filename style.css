@@ -1,8 +1,9 @@
 /* Estilos para dispositivos maiores */
 header {
-    background-color:blueviolet;
+    background-color:#cf4648;
     padding: 5px;
     color: #fff;
+  
 }
 
 nav ul {
@@ -10,13 +11,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-section lat{
-    background-color:#F4A460;
-    padding: 5px;
-    color: #fff;
-    letf:0;
-  
-}
+
 nav li {
     display: inline;
     margin-right: 10px;
@@ -29,6 +24,9 @@ nav li a {
 
 main {
     padding: 20px;
+}
+li,ul,nav{
+  margin-right: 0;
 }
 
 /* Estilos para dispositivos menores */
@@ -47,20 +45,20 @@ main {
 }
 iframe {
     width: 100%;
+    height: 56.25%;
     margin: auto;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 10px;
+    left: 2px;
     right: 0;
 }
 aside{
   background: blueviolet;align-self 
   color: #FDFDFD;
   width:20%;
-  height: 60.00%;
+  height: 80.00%;
   position: absolute;
   padding: 5px;
-  display: inline;
   border: 2px;
   border-color: #000;
 }
@@ -71,21 +69,10 @@ footer {
   top:87.00%;
 }
 
-main{
-  
-  background:  #fccfa01;
-  color: #FDFDFD;
-  left: 25%;
-  position: absolute;
-  width: 65%;
-  height: 57%;
-  border: 2px;
-  padding: 14.00px;
-}
 .btn {
   display: inline-block;
   
-  background-color: #00cc00;
+  background-color: #D2691E;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -103,3 +90,21 @@ main{
   /* espaçamento entre botões */
 }
 
+.btn:hover {
+      background-color: red;
+    }
+body{
+}
+
+
+main{
+  
+  background:  #fccfa01;
+  color: #FDFDFD;
+  left: 25%;
+  position: absolute;
+  width: 65%;
+  height: 57%;
+  border: 2px;
+  padding: 14.00px;
+}
