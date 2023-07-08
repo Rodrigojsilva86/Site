@@ -1,6 +1,6 @@
 /* Estilos para dispositivos maiores */
 header {
-    background-color:#cf4648;
+    background-color:#191970;
     padding: 5px;
     color: #fff;
   
@@ -28,21 +28,6 @@ main {
 li,ul,nav{
   margin-right: 0;
 }
-
-/* Estilos para dispositivos menores */
-@media screen and (max-width: 600px) {
-   header {
-        text-align: center;
-    }
-
-    nav {
-      //  margin-top: 10px;
-    }
-
-    main {
-       // text-align: center;
-    }
-}
 iframe {
     width: 100%;
     height: 56.25%;
@@ -53,7 +38,7 @@ iframe {
     right: 0;
 }
 aside{
-  background: blueviolet;align-self 
+  background: #0000FF;
   color: #FDFDFD;
   width:20%;
   height: 80.00%;
@@ -107,4 +92,19 @@ main{
   height: 57%;
   border: 2px;
   padding: 14.00px;
+}
+/* Estilos para dispositivos menores */
+@media screen and (max-width: 600px) {
+   header {
+        width: 200px:
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    main {
+        text-align: center;
+    }
 }
