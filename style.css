@@ -68,9 +68,8 @@ footer {
 
 .exibirVideo{
   
-  background:  #191970;
+  background:  #0000ff;
   color: #FDFDFD;
-  display: flex;
   left: 23%;
   position: absolute;
   width: 74%;
@@ -80,8 +79,7 @@ footer {
 }
 
 #direito{
-  background: #0000FF;
-  display: block;
+  background: #00ffFF;
   color: #FDFDFD;
   width:20%;
   height: 57.00%;
@@ -91,15 +89,10 @@ footer {
   
 }
 
-
-
-
-
-
 /* Estilos para dispositivos menores */
 @media screen and (max-width: 600px) {
    header {
-        width: 1000px:
+        width: 300px:
         text-align: center;
     }
 
