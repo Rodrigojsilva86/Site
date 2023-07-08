@@ -33,6 +33,8 @@ iframe {
     top: 10px;
     left: 1px;
     right: 0;
+  max-width: 400px;
+  max-height: 356.25px;
 }
 
 
@@ -73,7 +75,7 @@ footer {
   left: 23%;
   position: absolute;
   width: 74%;
-  height: 57.00%;
+  height: 100%;
   border: 0px;
   padding: 5px;
 }
@@ -82,10 +84,13 @@ footer {
   background: #00ffFF;
   color: #FDFDFD;
   width:20%;
-  height: 57.00%;
+  height: 100.00%;
   position: absolute;
   padding: 5px;
   border: 0px;
+  
+}
+body{
   
 }
 
