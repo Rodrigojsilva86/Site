@@ -1,6 +1,6 @@
 /* Estilos para dispositivos maiores */
 header {
-    background-color:#191970;
+    background-color:#195950;
     padding: 5px;
     color: #fff;
   
@@ -96,7 +96,7 @@ main{
 /* Estilos para dispositivos menores */
 @media screen and (max-width: 600px) {
    header {
-        width: 200px:
+        width: 400px:
         text-align: center;
     }
 
